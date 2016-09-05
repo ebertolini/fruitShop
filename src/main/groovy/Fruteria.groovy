@@ -1,6 +1,8 @@
 import groovy.json.JsonSlurper
+import groovyx.net.http.ContentType
 import groovyx.net.http.HTTPBuilder
-import static groovyx.net.http.ContentType.URLENC
+import groovyx.net.http.RESTClient
+
 
 /**
  * Created by estefaniabertolini on 8/22/16.
@@ -16,7 +18,11 @@ public class Fruteria {
 
         System.out.println( "Bienvenido a la Fruteria de Estefania, el lugar ideal para mandar fruta");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Presione la opción 1 para LISTAR, opción 2 AGREGAR un Item u opción 3 BUSCAR un item; para ABANDONAR presione 4");
+        System.out.println('''Presione la opción 1 para LISTAR.
+                            opción 2 AGREGAR un Item.
+                            opción 3 BUSCAR un item.
+                            opcion 4 ELIMINAR un item.
+                            para ABANDONAR presione 5.''');
 
         boolean salir = true;
         while (salir) {
@@ -32,6 +38,8 @@ public class Fruteria {
                     buscarUnItem();
                     break;
                 case 4:
+                    eliminarUnItem();
+                case 5:
                     salir = false;
                     break;
                 default:
@@ -80,16 +88,20 @@ public class Fruteria {
         println(frutas.ListadoFrutas.last().toString())
 
         // POST con el valor de mi string a info/frutas.json
-        def http = new HTTPBuilder( 'https://fefa-workshop.firebaseio.com/info.json' )
-        def postBody = frutas.ListadoFrutas.last().toString()
+        def http = new HTTPBuilder( 'https://fefa-workshop.firebaseio.com/' )
+        def postBody = http.post(  path : '/info/frutas.json',
+                                    body : frutas.ListadoFrutas.last(),
+                                    requestContentType : ContentType.JSON
+        )
 
-        http.post( path: '/', body: postBody,
-                requestContentType: URLENC ) { resp ->
 
-            println "POST Success: ${resp.statusLine}"
-            assert resp.statusLine.statusCode == 201
-        }
+
+        /*public void noAceptaNumeros(){
+            if (nombre.isNumber() ) {
+            }
+        }*/
     }
+
 
 
 
@@ -106,7 +118,7 @@ public class Fruteria {
         else {
         sentence = frutaABuscar
 
-    }
+    }   //reemplazar por .find
         boolean found = false
         frutas.ListadoFrutas.each{
           if (it.nombre == sentence) {
@@ -122,6 +134,25 @@ public class Fruteria {
         if (found == false){
             println("Fruta No encontrada :(")
         }
+    }
+
+
+    public static void eliminarUnItem(){
+        Scanner scanner = new Scanner(System.in)
+        println("Ingresa el nombre de la fruta a borrar")
+        String frutaAEliminar = scanner.next()
+
+        Fruta encontrarFrutaAEliminar = frutas.ListadoFrutas.find {
+            it.nombre == frutaAEliminar
+        }
+
+        def http = new RESTClient('https://fefa-workshop.firebaseio.com/' )
+        http.delete(path : "/info/frutas/${encontrarFrutaAEliminar.id}.json"
+        )
+        println("La fruta ha sido borrada!")
+
+
+
     }
 }
 

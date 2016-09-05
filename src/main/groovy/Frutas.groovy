@@ -11,7 +11,7 @@ public class Frutas {
 
     Frutas(def json){
         json.frutas.each{
-            def fruta = new Fruta(it.nombre, it.color, it.vitaminas)
+            def fruta = new Fruta(it.value.nombre, it.value.color, it.value.vitaminas, it.key)
             ListadoFrutas.add(fruta)
         }
 

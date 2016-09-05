@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da6243fa-dad6-4eb9-8093-827dfe4acfc9" name="Default" comment="" />
+    <list default="true" id="da6243fa-dad6-4eb9-8093-827dfe4acfc9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_modules_http_builder_http_builder_0_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Fruta.class" afterPath="$PROJECT_DIR$/target/classes/Fruta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Frutas$_closure1.class" afterPath="$PROJECT_DIR$/target/classes/Frutas$_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Fruteria$_agregarUnItem_closure2.class" afterPath="$PROJECT_DIR$/target/classes/Fruteria$_agregarUnItem_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Fruteria$_buscarUnItem_closure3.class" afterPath="$PROJECT_DIR$/target/classes/Fruteria$_buscarUnItem_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Fruteria$_listarLasFrutas_closure1.class" afterPath="$PROJECT_DIR$/target/classes/Fruteria$_listarLasFrutas_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Fruteria.class" afterPath="$PROJECT_DIR$/target/classes/Fruteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/mainTestClass.class" afterPath="$PROJECT_DIR$/target/test-classes/mainTestClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/Fruta.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/Fruta.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/Frutas.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/Frutas.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/Fruteria.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/Fruteria.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/mainTestClass.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/mainTestClass.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verduleria.iml" afterPath="$PROJECT_DIR$/verduleria.iml" />
+    </list>
     <ignored path="verduleria.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -12,6 +42,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/verduleria$mainTestClass.coverage" NAME="mainTestClass Coverage Results" MODIFIED="1473101308965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -25,8 +58,8 @@
       <file leaf-file-name="Fruteria.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/Fruteria.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+            <state relative-caret-position="195">
+              <caret line="120" column="26" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -37,8 +70,8 @@
       <file leaf-file-name="Frutas.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/Frutas.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            <state relative-caret-position="171">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -49,8 +82,8 @@
       <file leaf-file-name="Fruta.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/Fruta.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="510">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -59,8 +92,8 @@
       <file leaf-file-name="mainTestClass.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/mainTestClass.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="34" column="15" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="24" />
+            <state relative-caret-position="510">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="e#1#35#0" expanded="true" />
                 <element signature="e#80#132#0" expanded="false" />
@@ -88,6 +121,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
@@ -102,15 +138,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/groovy/Fruteria.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/groovy/JsonParseador.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/JsonParser.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/Fruta.java" />
         <option value="$PROJECT_DIR$/src/main/groovy/Frutas.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/Assertion.groovy" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/groovy/Frutas.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/Fruta.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/mainTestClass.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/Fruta.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/Fruteria.groovy" />
       </list>
     </option>
@@ -127,7 +163,7 @@
     <option name="width" value="1440" />
     <option name="height" value="833" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -251,38 +287,9 @@
     <property name="SearchEverywhereHistoryKey" value="Obje&#9;PSI&#9;JAVA://java.lang.Object" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mule-agent/pom.xml" />
   </component>
-  <component name="RunManager" selected="TestNG.mainTestClass.thirdValidation">
-    <configuration default="false" name="Fruteria (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Fruteria" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="verduleria" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Fruteria (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Fruteria" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="verduleria" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Fruteria (4)">
     <configuration default="false" name="Fruteria (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Fruteria" />
@@ -296,6 +303,34 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="verduleria" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="mainTestClass" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="verduleria" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="mainTestClass" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="false" name="Fruteria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -313,32 +348,34 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="mainTestClass.thirdValidation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Fruteria (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="verduleria" />
+      <option name="MAIN_CLASS_NAME" value="Fruteria" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="mainTestClass" />
-      <option name="METHOD_NAME" value="thirdValidation" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <module name="verduleria" />
       <envs />
-      <properties />
-      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="Fruteria (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Fruteria" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="verduleria" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -430,6 +467,15 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -585,19 +631,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Fruteria (4)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Fruteria (5)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Fruteria (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Fruteria" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.mainTestClass.thirdValidation" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Fruteria (1)" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.mainTestClass" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Fruteria" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Fruteria (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Fruteria (4)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.mainTestClass.thirdValidation" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Fruteria" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Fruteria (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Fruteria (5)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Fruteria (4)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Fruteria (4)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Fruteria (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Fruteria" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.mainTestClass" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Fruteria (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -618,23 +664,23 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="mainTestClass_firstValidation - 2016.08.31 at 15h 29m 58s.xml">
-      <configuration name="mainTestClass.firstValidation" configurationId="TestNG" />
+    <history-entry file="mainTestClass - 2016.09.05 at 15h 40m 52s.xml">
+      <configuration name="mainTestClass" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="mainTestClass_firstValidation - 2016.08.31 at 15h 30m 12s.xml">
-      <configuration name="mainTestClass.firstValidation" configurationId="TestNG" />
+    <history-entry file="mainTestClass - 2016.09.05 at 15h 46m 20s.xml">
+      <configuration name="mainTestClass" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="mainTestClass_secondValidation - 2016.08.31 at 15h 59m 16s.xml">
-      <configuration name="mainTestClass.secondValidation" configurationId="TestNG" />
+    <history-entry file="mainTestClass - 2016.09.05 at 15h 48m 07s.xml">
+      <configuration name="mainTestClass" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="mainTestClass_testDomain - 2016.08.31 at 15h 35m 25s.xml">
-      <configuration name="mainTestClass.testDomain" configurationId="TestNG" />
+    <history-entry file="mainTestClass - 2016.09.05 at 15h 48m 33s.xml">
+      <configuration name="mainTestClass" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="mainTestClass_testDomain - 2016.08.31 at 15h 37m 01s.xml">
-      <configuration name="mainTestClass.testDomain" configurationId="TestNG" />
+    <history-entry file="mainTestClass - 2016.09.05 at 15h 49m 57s.xml">
+      <configuration name="mainTestClass" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="mainTestClass_thirdValidation - 2016.09.04 at 18h 04m 37s.xml">
-      <configuration name="mainTestClass.thirdValidation" configurationId="TestNG" />
+    <history-entry file="mainTestClass - 2016.09.05 at 15h 50m 30s.xml">
+      <configuration name="mainTestClass" configurationId="TestNG" />
     </history-entry>
     <history-entry file="mainTestClass_thirdValidation - 2016.09.04 at 18h 06m 00s.xml">
       <configuration name="mainTestClass.thirdValidation" configurationId="TestNG" />
@@ -662,6 +708,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38731444" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -679,6 +726,34 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38731444" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1988555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -693,7 +768,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -702,68 +777,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/Fruteria.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/Assertion.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/Fruta.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/Fruteria.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/Fruta.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/Fruteria.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/Frutas.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1005,14 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/javax/swing/text/html/parser/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -1082,20 +1087,268 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/Frutas.groovy">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/modules/http-builder/http-builder/0.7/http-builder-0.7.jar!/groovyx/net/http/RESTClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/modules/http-builder/http-builder/0.7/http-builder-0.7-sources.jar!/groovyx/net/http/RESTClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/2.4.5/groovy-all-2.4.5.jar!/org/codehaus/groovy/runtime/StringGroovyMethods.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="801" column="26" selection-start-line="801" selection-start-column="26" selection-end-line="801" selection-end-column="26" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#27052#27053#0" expanded="true" />
+            <element signature="e#27093#27094#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/2.4.5/groovy-all-2.4.5-sources.jar!/org/codehaus/groovy/runtime/StringGroovyMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#132599#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3973#3974#0" expanded="false" />
+            <element signature="e#4015#4016#0" expanded="false" />
+            <element signature="e#4701#4702#0" expanded="false" />
+            <element signature="e#4750#4751#0" expanded="false" />
+            <element signature="e#7893#7894#0" expanded="false" />
+            <element signature="e#7948#7949#0" expanded="false" />
+            <element signature="e#8125#8126#0" expanded="false" />
+            <element signature="e#8182#8183#0" expanded="false" />
+            <element signature="e#9212#9213#0" expanded="false" />
+            <element signature="e#9266#9267#0" expanded="false" />
+            <element signature="e#10199#10200#0" expanded="false" />
+            <element signature="e#10254#10255#0" expanded="false" />
+            <element signature="e#14251#14252#0" expanded="false" />
+            <element signature="e#14321#14322#0" expanded="false" />
+            <element signature="e#16885#16886#0" expanded="false" />
+            <element signature="e#16940#16941#0" expanded="false" />
+            <element signature="e#18414#18415#0" expanded="false" />
+            <element signature="e#18474#18475#0" expanded="false" />
+            <element signature="e#28614#28615#0" expanded="false" />
+            <element signature="e#28652#28653#0" expanded="false" />
+            <element signature="e#29904#29905#0" expanded="false" />
+            <element signature="e#29954#29955#0" expanded="false" />
+            <element signature="e#30134#30135#0" expanded="false" />
+            <element signature="e#30193#30194#0" expanded="false" />
+            <element signature="e#31177#31178#0" expanded="false" />
+            <element signature="e#31240#31241#0" expanded="false" />
+            <element signature="e#38302#38303#0" expanded="false" />
+            <element signature="e#38359#38360#0" expanded="false" />
+            <element signature="e#38918#38919#0" expanded="false" />
+            <element signature="e#38988#38989#0" expanded="false" />
+            <element signature="e#43778#43786#0" expanded="false" />
+            <element signature="e#46367#46368#0" expanded="false" />
+            <element signature="e#46427#46428#0" expanded="false" />
+            <element signature="e#49007#49008#0" expanded="false" />
+            <element signature="e#49032#49033#0" expanded="false" />
+            <element signature="e#49732#49733#0" expanded="false" />
+            <element signature="e#49793#49794#0" expanded="false" />
+            <element signature="e#50095#50096#0" expanded="false" />
+            <element signature="e#50144#50145#0" expanded="false" />
+            <element signature="e#50459#50460#0" expanded="false" />
+            <element signature="e#50508#50509#0" expanded="false" />
+            <element signature="e#51282#51283#0" expanded="false" />
+            <element signature="e#51334#51335#0" expanded="false" />
+            <element signature="e#55176#55177#0" expanded="false" />
+            <element signature="e#55236#55237#0" expanded="false" />
+            <element signature="e#55438#55439#0" expanded="false" />
+            <element signature="e#55496#55497#0" expanded="false" />
+            <element signature="e#55698#55699#0" expanded="false" />
+            <element signature="e#55754#55755#0" expanded="false" />
+            <element signature="e#56413#56414#0" expanded="false" />
+            <element signature="e#56462#56463#0" expanded="false" />
+            <element signature="e#57226#57227#0" expanded="false" />
+            <element signature="e#57278#57279#0" expanded="false" />
+            <element signature="e#57444#57445#0" expanded="false" />
+            <element signature="e#57496#57497#0" expanded="false" />
+            <element signature="e#59138#59146#0" expanded="false" />
+            <element signature="e#59781#59782#0" expanded="false" />
+            <element signature="e#59828#59829#0" expanded="false" />
+            <element signature="e#60551#60552#0" expanded="false" />
+            <element signature="e#60610#60611#0" expanded="false" />
+            <element signature="e#61256#61257#0" expanded="false" />
+            <element signature="e#61312#61313#0" expanded="false" />
+            <element signature="e#61958#61959#0" expanded="false" />
+            <element signature="e#62014#62015#0" expanded="false" />
+            <element signature="e#65098#65099#0" expanded="false" />
+            <element signature="e#65150#65151#0" expanded="false" />
+            <element signature="e#65770#65771#0" expanded="false" />
+            <element signature="e#65821#65822#0" expanded="false" />
+            <element signature="e#66454#66455#0" expanded="false" />
+            <element signature="e#66507#66508#0" expanded="false" />
+            <element signature="e#67121#67122#0" expanded="false" />
+            <element signature="e#67171#67172#0" expanded="false" />
+            <element signature="e#67498#67499#0" expanded="false" />
+            <element signature="e#67539#67540#0" expanded="false" />
+            <element signature="e#67706#67707#0" expanded="false" />
+            <element signature="e#67758#67759#0" expanded="false" />
+            <element signature="e#69003#69011#0" expanded="false" />
+            <element signature="e#69455#69456#0" expanded="false" />
+            <element signature="e#69528#69529#0" expanded="false" />
+            <element signature="e#70355#70356#0" expanded="false" />
+            <element signature="e#70414#70415#0" expanded="false" />
+            <element signature="e#71714#71715#0" expanded="false" />
+            <element signature="e#71768#71769#0" expanded="false" />
+            <element signature="e#71959#71960#0" expanded="false" />
+            <element signature="e#72019#72020#0" expanded="false" />
+            <element signature="e#73233#73234#0" expanded="false" />
+            <element signature="e#73294#73295#0" expanded="false" />
+            <element signature="e#73496#73497#0" expanded="false" />
+            <element signature="e#73554#73555#0" expanded="false" />
+            <element signature="e#73737#73738#0" expanded="false" />
+            <element signature="e#73794#73795#0" expanded="false" />
+            <element signature="e#74864#74865#0" expanded="false" />
+            <element signature="e#74924#74925#0" expanded="false" />
+            <element signature="e#76182#76183#0" expanded="false" />
+            <element signature="e#76230#76231#0" expanded="false" />
+            <element signature="e#77359#77360#0" expanded="false" />
+            <element signature="e#77412#77413#0" expanded="false" />
+            <element signature="e#78356#78357#0" expanded="false" />
+            <element signature="e#78412#78413#0" expanded="false" />
+            <element signature="e#83619#83620#0" expanded="false" />
+            <element signature="e#83685#83686#0" expanded="false" />
+            <element signature="e#83938#83939#0" expanded="false" />
+            <element signature="e#84005#84006#0" expanded="false" />
+            <element signature="e#84185#84186#0" expanded="false" />
+            <element signature="e#84240#84241#0" expanded="false" />
+            <element signature="e#84546#84547#0" expanded="false" />
+            <element signature="e#84579#84580#0" expanded="false" />
+            <element signature="e#84820#84821#0" expanded="false" />
+            <element signature="e#84855#84856#0" expanded="false" />
+            <element signature="e#86011#86012#0" expanded="false" />
+            <element signature="e#86063#86064#0" expanded="false" />
+            <element signature="e#101842#101843#0" expanded="false" />
+            <element signature="e#101909#101910#0" expanded="false" />
+            <element signature="e#102073#102074#0" expanded="false" />
+            <element signature="e#102124#102125#0" expanded="false" />
+            <element signature="e#103259#103260#0" expanded="false" />
+            <element signature="e#103295#103296#0" expanded="false" />
+            <element signature="e#103549#103550#0" expanded="false" />
+            <element signature="e#103586#103587#0" expanded="false" />
+            <element signature="e#103825#103826#0" expanded="false" />
+            <element signature="e#103861#103862#0" expanded="false" />
+            <element signature="e#104128#104129#0" expanded="false" />
+            <element signature="e#104166#104167#0" expanded="false" />
+            <element signature="e#104955#104956#0" expanded="false" />
+            <element signature="e#105004#105005#0" expanded="false" />
+            <element signature="e#105166#105167#0" expanded="false" />
+            <element signature="e#105215#105216#0" expanded="false" />
+            <element signature="e#110779#110780#0" expanded="false" />
+            <element signature="e#110834#110835#0" expanded="false" />
+            <element signature="e#111020#111021#0" expanded="false" />
+            <element signature="e#111085#111086#0" expanded="false" />
+            <element signature="e#111861#111862#0" expanded="false" />
+            <element signature="e#111906#111907#0" expanded="false" />
+            <element signature="e#114180#114181#0" expanded="false" />
+            <element signature="e#114235#114236#0" expanded="false" />
+            <element signature="e#116456#116457#0" expanded="false" />
+            <element signature="e#116514#116515#0" expanded="false" />
+            <element signature="e#118543#118544#0" expanded="false" />
+            <element signature="e#118604#118605#0" expanded="false" />
+            <element signature="e#118782#118783#0" expanded="false" />
+            <element signature="e#118838#118839#0" expanded="false" />
+            <element signature="e#119087#119088#0" expanded="false" />
+            <element signature="e#119148#119149#0" expanded="false" />
+            <element signature="e#119326#119327#0" expanded="false" />
+            <element signature="e#119382#119383#0" expanded="false" />
+            <element signature="e#120227#120228#0" expanded="false" />
+            <element signature="e#120264#120265#0" expanded="false" />
+            <element signature="e#120493#120494#0" expanded="false" />
+            <element signature="e#120554#120555#0" expanded="false" />
+            <element signature="e#120720#120721#0" expanded="false" />
+            <element signature="e#120772#120773#0" expanded="false" />
+            <element signature="e#120996#120997#0" expanded="false" />
+            <element signature="e#121056#121057#0" expanded="false" />
+            <element signature="e#121219#121220#0" expanded="false" />
+            <element signature="e#121270#121271#0" expanded="false" />
+            <element signature="e#121475#121476#0" expanded="false" />
+            <element signature="e#121537#121538#0" expanded="false" />
+            <element signature="e#121706#121707#0" expanded="false" />
+            <element signature="e#121759#121760#0" expanded="false" />
+            <element signature="e#122701#122702#0" expanded="false" />
+            <element signature="e#122756#122757#0" expanded="false" />
+            <element signature="e#123432#123433#0" expanded="false" />
+            <element signature="e#123484#123485#0" expanded="false" />
+            <element signature="e#123684#123685#0" expanded="false" />
+            <element signature="e#123743#123744#0" expanded="false" />
+            <element signature="e#124432#124440#0" expanded="false" />
+            <element signature="e#124741#124742#0" expanded="false" />
+            <element signature="e#124791#124792#0" expanded="false" />
+            <element signature="e#125010#125011#0" expanded="false" />
+            <element signature="e#125069#125070#0" expanded="false" />
+            <element signature="e#125229#125230#0" expanded="false" />
+            <element signature="e#125279#125280#0" expanded="false" />
+            <element signature="e#125596#125597#0" expanded="false" />
+            <element signature="e#125652#125653#0" expanded="false" />
+            <element signature="e#125817#125818#0" expanded="false" />
+            <element signature="e#125866#125867#0" expanded="false" />
+            <element signature="e#126061#126062#0" expanded="false" />
+            <element signature="e#126121#126122#0" expanded="false" />
+            <element signature="e#126284#126285#0" expanded="false" />
+            <element signature="e#126335#126336#0" expanded="false" />
+            <element signature="e#129724#129725#0" expanded="false" />
+            <element signature="e#129764#129765#0" expanded="false" />
+            <element signature="e#130878#130879#0" expanded="false" />
+            <element signature="e#130930#130931#0" expanded="false" />
+            <element signature="e#131114#131115#0" expanded="false" />
+            <element signature="e#131175#131176#0" expanded="false" />
+            <element signature="e#132529#132530#0" expanded="false" />
+            <element signature="e#132594#132595#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/modules/http-builder/http-builder/0.7/http-builder-0.7-sources.jar!/groovyx/net/http/HTTPBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-533">
+          <caret line="202" column="11" selection-start-line="202" selection-start-column="11" selection-end-line="202" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/modules/http-builder/http-builder/0.7/http-builder-0.7-sources.jar!/groovyx/net/http/ContentType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/Fruta.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/mainTestClass.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="34" column="15" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="510">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="e#1#35#0" expanded="true" />
             <element signature="e#80#132#0" expanded="false" />
@@ -1103,18 +1356,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/Fruta.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/Frutas.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="171">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verduleria.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/Fruteria.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+        <state relative-caret-position="195">
+          <caret line="120" column="26" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

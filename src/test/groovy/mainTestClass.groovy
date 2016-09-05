@@ -7,7 +7,7 @@ import org.testng.annotations.TestInstance
  */
 class mainTestClass {
 
-    @Test
+    //@Test
     void firstValidation() {
 
         Fruteria.listarLasFrutas()
@@ -18,7 +18,7 @@ class mainTestClass {
     void testDomain() {
 
         Frutas frutaNueva = new Frutas()
-        frutaNueva.ListadoFrutas.add(new Fruta("durazno", "amarillo", []))
+        frutaNueva.ListadoFrutas.add(new Fruta("durazno", "amarillo", [], ""))
 
         assert frutaNueva.ListadoFrutas[0].nombre == "durazno"
 
