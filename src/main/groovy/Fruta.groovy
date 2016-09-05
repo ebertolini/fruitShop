@@ -8,12 +8,14 @@ public class Fruta {
     String nombre;
     String color;
     ArrayList<String> vitaminas;
+    String id;
 
 
-    Fruta(String nombre, String color, ArrayList<String> vitaminas){
+    Fruta(String nombre, String color, ArrayList<String> vitaminas, String id){
         this.nombre = nombre
         this.color = color
         this.vitaminas = vitaminas
+        this.id = id
     }
     String toString(){
         String body = """
@@ -27,4 +29,10 @@ public class Fruta {
     }
 
 
+    Fruta(String nombre, String color, ArrayList<String> vitaminas) {
+        this.nombre = nombre
+        this.color = color
+        this.vitaminas = vitaminas
+
+    }
 }
