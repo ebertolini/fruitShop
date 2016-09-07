@@ -9,6 +9,6 @@ This system allows you to:
 
 
 ### To clone and execute it:
-- clone the proyect entering by console: git clone + https://github.com/ebertolini/fruitShop.git
+- clone the proyect entering by console: git clone https://github.com/ebertolini/fruitShop.git
 - Type: mvn package (It will create a .jar file in ../target/file.jar)
 - java -jar <archive.jar>
