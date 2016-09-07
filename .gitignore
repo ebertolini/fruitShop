@@ -1,0 +1,14 @@
+/build/*
+*/target/*
+/classes/*
+.idea/*
+*.iml
+.gradle/*
+*.class
+*.log
+.DS_Store
+target/
+
+wrapper.log*
+
+test-output/*
