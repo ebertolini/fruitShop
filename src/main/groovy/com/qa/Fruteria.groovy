@@ -1,3 +1,5 @@
+package com.qa
+
 import groovy.json.JsonSlurper
 import groovyx.net.http.ContentType
 import groovyx.net.http.HTTPBuilder
@@ -16,41 +18,42 @@ public class Fruteria {
 
     public static void main (String[] args){
 
-        System.out.println( "Bienvenido a la Fruteria de Estefania, el lugar ideal para mandar fruta");
+        System.out.println( "Welcome to the FruitSHop, This is the best place to drop fruit!!! Enjoy it!");
         Scanner scanner = new Scanner(System.in);
-        System.out.println('''Presione la opción 1 para LISTAR.
-                            opción 2 AGREGAR un Item.
-                            opción 3 BUSCAR un item.
-                            opcion 4 ELIMINAR un item.
-                            para ABANDONAR presione 5.''');
 
-        boolean salir = true;
-        while (salir) {
+        mainMenu()
+
+        boolean exit = true;
+        while (exit) {
             int valorIngresado = scanner.nextInt();
             switch (valorIngresado) {
                 case 1:
-                    listarLasFrutas();
+                    listAllFruits();
                     break;
                 case 2:
-                    agregarUnItem();
+                    addAnItem();
                     break;
                 case 3:
-                    buscarUnItem();
+                    searchAnItem();
                     break;
                 case 4:
-                    eliminarUnItem();
+                    deleteAnItem();
                 case 5:
-                    salir = false;
+                    exit = false;
                     break;
                 default:
-                    System.out.println("No hay mas opciones!");
+                    System.out.println("No more options!");
             }
         }
     }
 
-    public static void listarLasFrutas() {
+    public static void listAllFruits() {
 
         //El usuario recibe el listado de la frutas
+        println('''
+        OPTION 1 - LIST ALL FRUITS.
+        The fruits list is the following:
+        ''')
         frutas.ListadoFrutas.each{
             it.nombre
             println(it.nombre)
@@ -58,22 +61,19 @@ public class Fruteria {
         }
     }
 
+    public static void addAnItem() {
 
-
-    public static void agregarUnItem() {
-
-        System.out.println("Agregar");
+        println("OPTION 2 - ADD A NEW FRUIT.");
         Scanner scanner = new Scanner(System.in)
         String nombre = "";
         String color = "";
         String vitamina = "";
         String[] vitaminaSplit = [];
 
-        System.out.println("Ingrese el nombre de la fruta")
-        nombre = scanner.next()
-        System.out.println("Ingrese el color de la fruta")
+        nombre = ValidationClass.validateName()
+        System.out.println("Enter the fruit colour:")
         color = scanner.next()
-        System.out.println("Ingrese la vitamina de la fruta")
+        System.out.println("Enter the fruit vitamins:")
         vitamina = scanner.next()
         vitaminaSplit = vitamina.split(",")
         ArrayList<String> vitaminaArray;
@@ -82,77 +82,75 @@ public class Fruteria {
             vitaminaArray.add(it)
         }
         frutas.ListadoFrutas.add(new Fruta(nombre,color,vitaminaArray))
-
-        listarLasFrutas()
+        listAllFruits()
 
         println(frutas.ListadoFrutas.last().toString())
-
         // POST con el valor de mi string a info/frutas.json
         def http = new HTTPBuilder( 'https://fefa-workshop.firebaseio.com/' )
-        def postBody = http.post(  path : '/info/frutas.json',
+        http.post(  path : '/info/frutas.json',
                                     body : frutas.ListadoFrutas.last(),
                                     requestContentType : ContentType.JSON
         )
-
-
-
-        /*public void noAceptaNumeros(){
-            if (nombre.isNumber() ) {
-            }
-        }*/
+        mainMenu()
     }
 
+    public static void searchAnItem(String frutaABuscar){
+        println("OPTION 3 - SEARCH AN EXISTING FRUIT.");
 
-
-
-    public static void buscarUnItem(String frutaABuscar){
-        System.out.println("Buscar");
-
-        // El usuario ingresa la fruta de la que desea recibir la información.
+        // El usuario ingresa la fruta que desea recibir la información.
         Scanner scanner = new Scanner(System.in)
-        System.out.println("Ingresa la fruta")
+        System.out.println("Enter the fruit you are looking for:")
         String sentence;
         if(frutaABuscar == null) {
             sentence = scanner.next()
+
         }
         else {
         sentence = frutaABuscar
-
-    }   //reemplazar por .find
-        boolean found = false
-        frutas.ListadoFrutas.each{
-          if (it.nombre == sentence) {
-              found = true
-              println("Fruta Encontrada!")
-              println("  - Nombre: "+it.nombre)
-              println("  - Color: "+it.color)
-              println("  - Vitaminas: "+it.vitaminas)
-
-              loQueEncontro = it.nombre
-          }
         }
-        if (found == false){
-            println("Fruta No encontrada :(")
+
+        //Compara com.qa.Fruta a buscar con la lista de frutas
+        Fruta frutaEncontrada = frutas.ListadoFrutas.find {
+            it.nombre.toLowerCase() == sentence.toLowerCase()
         }
+        if (frutaEncontrada) {
+            println("The fruit was found.")
+        } else {
+            println("The fruit does not exist.")
+        }
+        mainMenu()
     }
 
-
-    public static void eliminarUnItem(){
+    public static void deleteAnItem(){
+        println("OPTION 4 - DELETE AN ITEM.")
         Scanner scanner = new Scanner(System.in)
-        println("Ingresa el nombre de la fruta a borrar")
+        println("Enter the fruit you want to delete")
         String frutaAEliminar = scanner.next()
 
         Fruta encontrarFrutaAEliminar = frutas.ListadoFrutas.find {
             it.nombre == frutaAEliminar
         }
+        if (encontrarFrutaAEliminar) {
+            def http = new RESTClient('https://fefa-workshop.firebaseio.com/' )
+            http.delete(path : "/info/frutas/${encontrarFrutaAEliminar.id}.json")
+            println("The fruit has been deleted!")
+        }
+        else {
+            println("The fruit has not been deleted or could not be deleted.")
+        }
 
-        def http = new RESTClient('https://fefa-workshop.firebaseio.com/' )
-        http.delete(path : "/info/frutas/${encontrarFrutaAEliminar.id}.json"
-        )
-        println("La fruta ha sido borrada!")
+        mainMenu()
+    }
 
 
-
+    public static void mainMenu(){
+        System.out.println ('''
+                            OPTION 1 - LIST ALL FRUITS.
+                            OPTION 2 - ADD A NEW FRUIT.
+                            OPTION 3 - SEARCH AN EXISTING FRUIT.
+                            OPTION 4 - DELETE AN ITEM.
+                            OPTION 5 - EXIT.
+                            ''');
     }
 }
 

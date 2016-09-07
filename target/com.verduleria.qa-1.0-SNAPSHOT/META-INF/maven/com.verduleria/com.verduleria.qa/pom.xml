@@ -38,7 +38,7 @@
                     <manifest>
                         <addClasspath>true</addClasspath>
                         <classpathPrefix>lib/</classpathPrefix>
-                        <mainClass>Fruteria</mainClass>
+                        <mainClass>com.qa.Fruteria</mainClass>
                     </manifest>
                 </archive>
             </configuration>

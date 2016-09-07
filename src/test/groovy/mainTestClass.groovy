@@ -1,6 +1,6 @@
-
+import com.qa.Fruta
+import com.qa.Frutas
 import org.testng.annotations.Test
-import org.testng.annotations.TestInstance
 
 /**
  * Created by estefaniabertolini on 8/30/16.
@@ -10,7 +10,7 @@ class mainTestClass {
     //@Test
     void firstValidation() {
 
-        Fruteria.listarLasFrutas()
+        Fruteria.listAllFruits()
         assert Fruteria.nombre == "bananamanzananaranja"
     }
 
@@ -26,7 +26,7 @@ class mainTestClass {
 
     @Test
     void secondValidation() {
-        Fruteria.buscarUnItem("naranja")
+        Fruteria.searchAnItem("naranja")
 
         assert Fruteria.loQueEncontro == "naranja"
     }
@@ -44,16 +44,5 @@ class mainTestClass {
 
     }
 }
-//ESCRIBIR EL PROCESO LOGICO PARA PROBAR LA FUNCION DE AGREGAR
-/*
-- Agregar un item con el metodo ADD de Fruta pasandole los nuevos parametros
-Frutas frutaNueva = new Fruta()
-1- frutas.listadodeFrutas.add(new Fruta(pera,amarilla,[E,D]))
-2- Assert del Fruta con los datos del parametro.
-Fruta[0].nombre == "pera"
-Fruta[0].color == "amarillo"
-Fruta[0].vitaminas == "E,D"
-- print del ListadoFrutas y aparecen todas las frutas del json y esta hardcodeada
 
- */
 

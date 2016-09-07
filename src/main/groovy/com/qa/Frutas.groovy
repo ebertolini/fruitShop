@@ -1,3 +1,7 @@
+package com.qa
+
+import com.qa.Fruta
+
 /**
  * Created by estefaniabertolini on 8/22/16.
  */
