@@ -20,7 +20,6 @@ public class Fruteria {
 
         System.out.println( "Welcome to the FruitSHop, This is the best place to drop fruit!!! Enjoy it!");
         Scanner scanner = new Scanner(System.in);
-
         mainMenu()
 
         boolean exit = true;
@@ -38,6 +37,7 @@ public class Fruteria {
                     break;
                 case 4:
                     deleteAnItem();
+                    break;
                 case 5:
                     exit = false;
                     break;
@@ -59,6 +59,7 @@ public class Fruteria {
             println(it.nombre)
             nombre = nombre + it.nombre
         }
+        mainMenu()
     }
 
     public static void addAnItem() {
@@ -71,20 +72,16 @@ public class Fruteria {
         String[] vitaminaSplit = [];
 
         nombre = ValidationClass.validateName()
-        System.out.println("Enter the fruit colour:")
-        color = scanner.next()
-        System.out.println("Enter the fruit vitamins:")
-        vitamina = scanner.next()
+        color = ValidationClass.validateColour()
+        vitamina = ValidationClass.validateVitamins()
         vitaminaSplit = vitamina.split(",")
         ArrayList<String> vitaminaArray;
         vitaminaArray = new ArrayList<String>()
-        vitaminaSplit.each{
+        vitaminaSplit.each {
             vitaminaArray.add(it)
         }
         frutas.ListadoFrutas.add(new Fruta(nombre,color,vitaminaArray))
-        listAllFruits()
-
-        println(frutas.ListadoFrutas.last().toString())
+        println("La Fruta fue agregada correctamente: "+frutas.ListadoFrutas.last().toString())
         // POST con el valor de mi string a info/frutas.json
         def http = new HTTPBuilder( 'https://fefa-workshop.firebaseio.com/' )
         http.post(  path : '/info/frutas.json',
@@ -124,6 +121,7 @@ public class Fruteria {
     public static void deleteAnItem(){
         println("OPTION 4 - DELETE AN ITEM.")
         Scanner scanner = new Scanner(System.in)
+        listAllFruits()
         println("Enter the fruit you want to delete")
         String frutaAEliminar = scanner.next()
 
@@ -134,11 +132,11 @@ public class Fruteria {
             def http = new RESTClient('https://fefa-workshop.firebaseio.com/' )
             http.delete(path : "/info/frutas/${encontrarFrutaAEliminar.id}.json")
             println("The fruit has been deleted!")
+
         }
         else {
             println("The fruit has not been deleted or could not be deleted.")
         }
-
         mainMenu()
     }
 
@@ -152,5 +150,7 @@ public class Fruteria {
                             OPTION 5 - EXIT.
                             ''');
     }
+
+
 }
 

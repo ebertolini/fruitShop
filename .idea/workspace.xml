@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da6243fa-dad6-4eb9-8093-827dfe4acfc9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/com/qa/ValidationClass.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Fruteria$_agregarUnItem_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Fruteria$_buscarUnItem_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Fruteria$_eliminarUnItem_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Fruteria$_listarLasFrutas_closure1.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/Fruta.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/qa/Fruta.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/Frutas.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/qa/Frutas.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/Fruteria.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/qa/Fruteria.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Fruteria.class" afterPath="$PROJECT_DIR$/target/classes/Fruteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/mainTestClass.class" afterPath="$PROJECT_DIR$/target/test-classes/mainTestClass.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/mainTestClass.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/mainTestClass.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/qa/Fruteria.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/qa/Fruteria.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/qa/ValidationClass.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/qa/ValidationClass.groovy" />
     </list>
     <ignored path="verduleria.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,23 +32,13 @@
       <file leaf-file-name="Fruteria.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/qa/Fruteria.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+            <state relative-caret-position="143">
+              <caret line="124" column="53" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="53" />
               <folding>
                 <element signature="e#16#46#0" expanded="true" />
                 <element signature="e#156#208#0" expanded="false" />
-                <element signature="n#!!block;n#listAllFruits#0;n#!!block;n#Fruteria#0" expanded="false" />
+                <element signature="n#!!block;n#searchAnItem#0;n#!!block;n#Fruteria#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -66,8 +46,8 @@
       <file leaf-file-name="ValidationClass.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/qa/ValidationClass.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="765">
+              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
               <folding>
                 <element signature="e#15#66#0" expanded="false" />
               </folding>
@@ -78,8 +58,8 @@
       <file leaf-file-name="Frutas.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/qa/Frutas.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -88,7 +68,7 @@
       <file leaf-file-name="Fruta.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/qa/Fruta.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
+            <state relative-caret-position="135">
               <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding />
             </state>
@@ -98,10 +78,10 @@
       <file leaf-file-name="mainTestClass.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/mainTestClass.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="660">
               <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
-                <element signature="e#41#75#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#77#129#0" expanded="false" />
               </folding>
             </state>
@@ -155,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/main/groovy/ValidationClass.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/Fruteria.groovy" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/qa/ValidationClass.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/qa/Fruteria.groovy" />
       </list>
     </option>
   </component>
@@ -282,8 +264,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,23 +282,8 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mule-agent/pom.xml" />
   </component>
-  <component name="RunManager" selected="Application.Fruteria (4)">
+  <component name="RunManager" selected="Application.Fruteria (2)">
     <configuration default="false" name="Fruteria (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Fruteria" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="verduleria" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Fruteria (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Fruteria" />
       <option name="VM_PARAMETERS" />
@@ -364,6 +331,26 @@
     <configuration default="false" name="Fruteria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Fruteria" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="verduleria" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Fruteria (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.qa.Fruteria" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -630,18 +617,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Fruteria (4)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Fruteria (3)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Fruteria (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Fruteria (5)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Fruteria" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Fruteria (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Fruteria (5)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Fruteria" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Fruteria (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Fruteria (4)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Fruteria" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Fruteria (5)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Fruteria (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Fruteria (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Fruteria (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Fruteria (4)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Fruteria" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Fruteria (5)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Fruteria (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -694,7 +681,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="833" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -704,18 +691,17 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3859649" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3859649" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1988555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -723,6 +709,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -766,7 +753,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -782,7 +769,7 @@
           <folding>
             <element signature="e#16#46#0" expanded="true" />
             <element signature="e#156#208#0" expanded="false" />
-            <element signature="n#!!block;n#listAllFruits#0;n#!!block;n#Fruteria#0" expanded="false" />
+            <element signature="n#!!block;n#searchAnItem#0;n#!!block;n#Fruteria#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -810,7 +797,7 @@
           <folding>
             <element signature="e#16#46#0" expanded="true" />
             <element signature="e#156#208#0" expanded="false" />
-            <element signature="n#!!block;n#listAllFruits#0;n#!!block;n#Fruteria#0" expanded="false" />
+            <element signature="n#!!block;n#searchAnItem#0;n#!!block;n#Fruteria#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -839,7 +826,7 @@
           <folding>
             <element signature="e#16#46#0" expanded="true" />
             <element signature="e#156#208#0" expanded="false" />
-            <element signature="n#!!block;n#listAllFruits#0;n#!!block;n#Fruteria#0" expanded="false" />
+            <element signature="n#!!block;n#searchAnItem#0;n#!!block;n#Fruteria#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -868,7 +855,7 @@
           <folding>
             <element signature="e#16#46#0" expanded="true" />
             <element signature="e#156#208#0" expanded="false" />
-            <element signature="n#!!block;n#listAllFruits#0;n#!!block;n#Fruteria#0" expanded="false" />
+            <element signature="n#!!block;n#searchAnItem#0;n#!!block;n#Fruteria#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -903,7 +890,7 @@
           <folding>
             <element signature="e#16#46#0" expanded="true" />
             <element signature="e#156#208#0" expanded="false" />
-            <element signature="n#!!block;n#listAllFruits#0;n#!!block;n#Fruteria#0" expanded="false" />
+            <element signature="n#!!block;n#searchAnItem#0;n#!!block;n#Fruteria#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -932,7 +919,7 @@
           <folding>
             <element signature="e#16#46#0" expanded="true" />
             <element signature="e#156#208#0" expanded="false" />
-            <element signature="n#!!block;n#listAllFruits#0;n#!!block;n#Fruteria#0" expanded="false" />
+            <element signature="n#!!block;n#searchAnItem#0;n#!!block;n#Fruteria#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -960,7 +947,7 @@
           <folding>
             <element signature="e#16#46#0" expanded="true" />
             <element signature="e#156#208#0" expanded="false" />
-            <element signature="n#!!block;n#listAllFruits#0;n#!!block;n#Fruteria#0" expanded="false" />
+            <element signature="n#!!block;n#searchAnItem#0;n#!!block;n#Fruteria#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -988,7 +975,7 @@
           <folding>
             <element signature="e#16#46#0" expanded="true" />
             <element signature="e#156#208#0" expanded="false" />
-            <element signature="n#!!block;n#listAllFruits#0;n#!!block;n#Fruteria#0" expanded="false" />
+            <element signature="n#!!block;n#searchAnItem#0;n#!!block;n#Fruteria#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1027,7 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1185">
           <caret line="102" column="42" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="567" column="30" selection-start-line="567" selection-start-column="30" selection-end-line="567" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,10 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
           <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
-          <folding>
-            <element signature="e#6252#6253#0" expanded="false" />
-            <element signature="e#6320#6321#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,10 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="2408" column="20" selection-start-line="2408" selection-start-column="20" selection-end-line="2408" selection-end-column="20" />
-          <folding>
-            <element signature="e#94262#94263#0" expanded="false" />
-            <element signature="e#94300#94301#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1068,21 +1045,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/modules/http-builder/http-builder/0.7/http-builder-0.7-sources.jar!/groovyx/net/http/RESTClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/2.4.5/groovy-all-2.4.5.jar!/org/codehaus/groovy/runtime/StringGroovyMethods.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="801" column="26" selection-start-line="801" selection-start-column="26" selection-end-line="801" selection-end-column="26" />
-          <folding>
-            <element signature="e#27052#27053#0" expanded="true" />
-            <element signature="e#27093#27094#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1090,198 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#132599#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3973#3974#0" expanded="false" />
-            <element signature="e#4015#4016#0" expanded="false" />
-            <element signature="e#4701#4702#0" expanded="false" />
-            <element signature="e#4750#4751#0" expanded="false" />
-            <element signature="e#7893#7894#0" expanded="false" />
-            <element signature="e#7948#7949#0" expanded="false" />
-            <element signature="e#8125#8126#0" expanded="false" />
-            <element signature="e#8182#8183#0" expanded="false" />
-            <element signature="e#9212#9213#0" expanded="false" />
-            <element signature="e#9266#9267#0" expanded="false" />
-            <element signature="e#10199#10200#0" expanded="false" />
-            <element signature="e#10254#10255#0" expanded="false" />
-            <element signature="e#14251#14252#0" expanded="false" />
-            <element signature="e#14321#14322#0" expanded="false" />
-            <element signature="e#16885#16886#0" expanded="false" />
-            <element signature="e#16940#16941#0" expanded="false" />
-            <element signature="e#18414#18415#0" expanded="false" />
-            <element signature="e#18474#18475#0" expanded="false" />
-            <element signature="e#28614#28615#0" expanded="false" />
-            <element signature="e#28652#28653#0" expanded="false" />
-            <element signature="e#29904#29905#0" expanded="false" />
-            <element signature="e#29954#29955#0" expanded="false" />
-            <element signature="e#30134#30135#0" expanded="false" />
-            <element signature="e#30193#30194#0" expanded="false" />
-            <element signature="e#31177#31178#0" expanded="false" />
-            <element signature="e#31240#31241#0" expanded="false" />
-            <element signature="e#38302#38303#0" expanded="false" />
-            <element signature="e#38359#38360#0" expanded="false" />
-            <element signature="e#38918#38919#0" expanded="false" />
-            <element signature="e#38988#38989#0" expanded="false" />
-            <element signature="e#43778#43786#0" expanded="false" />
-            <element signature="e#46367#46368#0" expanded="false" />
-            <element signature="e#46427#46428#0" expanded="false" />
-            <element signature="e#49007#49008#0" expanded="false" />
-            <element signature="e#49032#49033#0" expanded="false" />
-            <element signature="e#49732#49733#0" expanded="false" />
-            <element signature="e#49793#49794#0" expanded="false" />
-            <element signature="e#50095#50096#0" expanded="false" />
-            <element signature="e#50144#50145#0" expanded="false" />
-            <element signature="e#50459#50460#0" expanded="false" />
-            <element signature="e#50508#50509#0" expanded="false" />
-            <element signature="e#51282#51283#0" expanded="false" />
-            <element signature="e#51334#51335#0" expanded="false" />
-            <element signature="e#55176#55177#0" expanded="false" />
-            <element signature="e#55236#55237#0" expanded="false" />
-            <element signature="e#55438#55439#0" expanded="false" />
-            <element signature="e#55496#55497#0" expanded="false" />
-            <element signature="e#55698#55699#0" expanded="false" />
-            <element signature="e#55754#55755#0" expanded="false" />
-            <element signature="e#56413#56414#0" expanded="false" />
-            <element signature="e#56462#56463#0" expanded="false" />
-            <element signature="e#57226#57227#0" expanded="false" />
-            <element signature="e#57278#57279#0" expanded="false" />
-            <element signature="e#57444#57445#0" expanded="false" />
-            <element signature="e#57496#57497#0" expanded="false" />
-            <element signature="e#59138#59146#0" expanded="false" />
-            <element signature="e#59781#59782#0" expanded="false" />
-            <element signature="e#59828#59829#0" expanded="false" />
-            <element signature="e#60551#60552#0" expanded="false" />
-            <element signature="e#60610#60611#0" expanded="false" />
-            <element signature="e#61256#61257#0" expanded="false" />
-            <element signature="e#61312#61313#0" expanded="false" />
-            <element signature="e#61958#61959#0" expanded="false" />
-            <element signature="e#62014#62015#0" expanded="false" />
-            <element signature="e#65098#65099#0" expanded="false" />
-            <element signature="e#65150#65151#0" expanded="false" />
-            <element signature="e#65770#65771#0" expanded="false" />
-            <element signature="e#65821#65822#0" expanded="false" />
-            <element signature="e#66454#66455#0" expanded="false" />
-            <element signature="e#66507#66508#0" expanded="false" />
-            <element signature="e#67121#67122#0" expanded="false" />
-            <element signature="e#67171#67172#0" expanded="false" />
-            <element signature="e#67498#67499#0" expanded="false" />
-            <element signature="e#67539#67540#0" expanded="false" />
-            <element signature="e#67706#67707#0" expanded="false" />
-            <element signature="e#67758#67759#0" expanded="false" />
-            <element signature="e#69003#69011#0" expanded="false" />
-            <element signature="e#69455#69456#0" expanded="false" />
-            <element signature="e#69528#69529#0" expanded="false" />
-            <element signature="e#70355#70356#0" expanded="false" />
-            <element signature="e#70414#70415#0" expanded="false" />
-            <element signature="e#71714#71715#0" expanded="false" />
-            <element signature="e#71768#71769#0" expanded="false" />
-            <element signature="e#71959#71960#0" expanded="false" />
-            <element signature="e#72019#72020#0" expanded="false" />
-            <element signature="e#73233#73234#0" expanded="false" />
-            <element signature="e#73294#73295#0" expanded="false" />
-            <element signature="e#73496#73497#0" expanded="false" />
-            <element signature="e#73554#73555#0" expanded="false" />
-            <element signature="e#73737#73738#0" expanded="false" />
-            <element signature="e#73794#73795#0" expanded="false" />
-            <element signature="e#74864#74865#0" expanded="false" />
-            <element signature="e#74924#74925#0" expanded="false" />
-            <element signature="e#76182#76183#0" expanded="false" />
-            <element signature="e#76230#76231#0" expanded="false" />
-            <element signature="e#77359#77360#0" expanded="false" />
-            <element signature="e#77412#77413#0" expanded="false" />
-            <element signature="e#78356#78357#0" expanded="false" />
-            <element signature="e#78412#78413#0" expanded="false" />
-            <element signature="e#83619#83620#0" expanded="false" />
-            <element signature="e#83685#83686#0" expanded="false" />
-            <element signature="e#83938#83939#0" expanded="false" />
-            <element signature="e#84005#84006#0" expanded="false" />
-            <element signature="e#84185#84186#0" expanded="false" />
-            <element signature="e#84240#84241#0" expanded="false" />
-            <element signature="e#84546#84547#0" expanded="false" />
-            <element signature="e#84579#84580#0" expanded="false" />
-            <element signature="e#84820#84821#0" expanded="false" />
-            <element signature="e#84855#84856#0" expanded="false" />
-            <element signature="e#86011#86012#0" expanded="false" />
-            <element signature="e#86063#86064#0" expanded="false" />
-            <element signature="e#101842#101843#0" expanded="false" />
-            <element signature="e#101909#101910#0" expanded="false" />
-            <element signature="e#102073#102074#0" expanded="false" />
-            <element signature="e#102124#102125#0" expanded="false" />
-            <element signature="e#103259#103260#0" expanded="false" />
-            <element signature="e#103295#103296#0" expanded="false" />
-            <element signature="e#103549#103550#0" expanded="false" />
-            <element signature="e#103586#103587#0" expanded="false" />
-            <element signature="e#103825#103826#0" expanded="false" />
-            <element signature="e#103861#103862#0" expanded="false" />
-            <element signature="e#104128#104129#0" expanded="false" />
-            <element signature="e#104166#104167#0" expanded="false" />
-            <element signature="e#104955#104956#0" expanded="false" />
-            <element signature="e#105004#105005#0" expanded="false" />
-            <element signature="e#105166#105167#0" expanded="false" />
-            <element signature="e#105215#105216#0" expanded="false" />
-            <element signature="e#110779#110780#0" expanded="false" />
-            <element signature="e#110834#110835#0" expanded="false" />
-            <element signature="e#111020#111021#0" expanded="false" />
-            <element signature="e#111085#111086#0" expanded="false" />
-            <element signature="e#111861#111862#0" expanded="false" />
-            <element signature="e#111906#111907#0" expanded="false" />
-            <element signature="e#114180#114181#0" expanded="false" />
-            <element signature="e#114235#114236#0" expanded="false" />
-            <element signature="e#116456#116457#0" expanded="false" />
-            <element signature="e#116514#116515#0" expanded="false" />
-            <element signature="e#118543#118544#0" expanded="false" />
-            <element signature="e#118604#118605#0" expanded="false" />
-            <element signature="e#118782#118783#0" expanded="false" />
-            <element signature="e#118838#118839#0" expanded="false" />
-            <element signature="e#119087#119088#0" expanded="false" />
-            <element signature="e#119148#119149#0" expanded="false" />
-            <element signature="e#119326#119327#0" expanded="false" />
-            <element signature="e#119382#119383#0" expanded="false" />
-            <element signature="e#120227#120228#0" expanded="false" />
-            <element signature="e#120264#120265#0" expanded="false" />
-            <element signature="e#120493#120494#0" expanded="false" />
-            <element signature="e#120554#120555#0" expanded="false" />
-            <element signature="e#120720#120721#0" expanded="false" />
-            <element signature="e#120772#120773#0" expanded="false" />
-            <element signature="e#120996#120997#0" expanded="false" />
-            <element signature="e#121056#121057#0" expanded="false" />
-            <element signature="e#121219#121220#0" expanded="false" />
-            <element signature="e#121270#121271#0" expanded="false" />
-            <element signature="e#121475#121476#0" expanded="false" />
-            <element signature="e#121537#121538#0" expanded="false" />
-            <element signature="e#121706#121707#0" expanded="false" />
-            <element signature="e#121759#121760#0" expanded="false" />
-            <element signature="e#122701#122702#0" expanded="false" />
-            <element signature="e#122756#122757#0" expanded="false" />
-            <element signature="e#123432#123433#0" expanded="false" />
-            <element signature="e#123484#123485#0" expanded="false" />
-            <element signature="e#123684#123685#0" expanded="false" />
-            <element signature="e#123743#123744#0" expanded="false" />
-            <element signature="e#124432#124440#0" expanded="false" />
-            <element signature="e#124741#124742#0" expanded="false" />
-            <element signature="e#124791#124792#0" expanded="false" />
-            <element signature="e#125010#125011#0" expanded="false" />
-            <element signature="e#125069#125070#0" expanded="false" />
-            <element signature="e#125229#125230#0" expanded="false" />
-            <element signature="e#125279#125280#0" expanded="false" />
-            <element signature="e#125596#125597#0" expanded="false" />
-            <element signature="e#125652#125653#0" expanded="false" />
-            <element signature="e#125817#125818#0" expanded="false" />
-            <element signature="e#125866#125867#0" expanded="false" />
-            <element signature="e#126061#126062#0" expanded="false" />
-            <element signature="e#126121#126122#0" expanded="false" />
-            <element signature="e#126284#126285#0" expanded="false" />
-            <element signature="e#126335#126336#0" expanded="false" />
-            <element signature="e#129724#129725#0" expanded="false" />
-            <element signature="e#129764#129765#0" expanded="false" />
-            <element signature="e#130878#130879#0" expanded="false" />
-            <element signature="e#130930#130931#0" expanded="false" />
-            <element signature="e#131114#131115#0" expanded="false" />
-            <element signature="e#131175#131176#0" expanded="false" />
-            <element signature="e#132529#132530#0" expanded="false" />
-            <element signature="e#132594#132595#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1310,16 +1084,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="3880" column="24" selection-start-line="3880" selection-start-column="24" selection-end-line="3880" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/modules/http-builder/http-builder/0.7/http-builder-0.7-sources.jar!/groovyx/net/http/RESTClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="216" column="18" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/qa/Fruteria.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="124" column="53" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="53" />
+          <folding>
+            <element signature="e#16#46#0" expanded="true" />
+            <element signature="e#156#208#0" expanded="false" />
+            <element signature="n#!!block;n#searchAnItem#0;n#!!block;n#Fruteria#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/qa/ValidationClass.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding>
+            <element signature="e#15#66#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/qa/Frutas.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/qa/Fruta.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/mainTestClass.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="660">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <element signature="e#41#75#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
             <element signature="e#77#129#0" expanded="false" />
           </folding>
         </state>
@@ -1330,52 +1156,6 @@
         <state relative-caret-position="45">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/qa/Fruta.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/qa/Frutas.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/qa/ValidationClass.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#15#66#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/qa/Fruteria.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding>
-            <element signature="e#16#46#0" expanded="true" />
-            <element signature="e#156#208#0" expanded="false" />
-            <element signature="n#!!block;n#listAllFruits#0;n#!!block;n#Fruteria#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
