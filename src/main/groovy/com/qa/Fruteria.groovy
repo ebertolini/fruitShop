@@ -101,7 +101,6 @@ public class Fruteria {
         else {
         sentence = frutaABuscar
         }
-        //Compara com.qa.Fruta a buscar con la lista de frutas
         Fruta frutaEncontrada = frutas.ListadoFrutas.find {
             it.nombre.toLowerCase() == sentence.toLowerCase()
         }

@@ -11,27 +11,22 @@ public class ValidationClass {
     public static String pedirNombre() {
         System.out.println("Enter a fruit name:")
     }
-
     public static String enterData() {
         dataByUser = scanner.next()
     }
-
     public static String validateName() {
-
         Fruta existe = Fruteria.frutas.ListadoFrutas.find {
-            it.nombre == dataByUser
+            it.nombre.toLowerCase() == dataByUser.toLowerCase()
         }
         if (existe) {
             println("The fruit you are trying to enter already exist.")
             nameValidated()
         }
-        //String fruitName = dataByUser
         while (!dataByUser.matches("[a-zA-Z]*")) {
             println("The name is invalid.")
             pedirNombre()
             enterData()
             validateName()
-            //fruitName = dataByUser
         }
         return dataByUser
     }
@@ -73,6 +68,5 @@ public class ValidationClass {
         Scanner scanner = new Scanner(System.in)
         scanner.next()
     }
-
 
 }

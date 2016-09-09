@@ -25,7 +25,7 @@ class mainTestClass {
 
     }
 
-    @Test
+    //@Test
     void secondValidation() {
         Fruteria.searchAnItem("naranja")
 
