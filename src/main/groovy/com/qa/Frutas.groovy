@@ -19,10 +19,6 @@ public class Frutas {
             ListadoFrutas.add(fruta)
         }
 
-
-
     }
-
-
 
 }

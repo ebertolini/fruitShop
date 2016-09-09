@@ -3,28 +3,48 @@ package com.qa
  * Created by estefaniabertolini on 9/5/16.
  */
 public class ValidationClass {
-
-    public static String validateName (){
-        String fruitName = pedirNombre()
-        while (!fruitName.matches( "[a-zA-Z]*" )){
-            System.out.println("The name is invalid.")
-            fruitName = pedirNombre()
-        }
-        return fruitName
-
-    }
+    static String nombre = "";
+    static String dataByUser;
+    static Scanner scanner = new Scanner(System.in)
 
 
-    public static String pedirNombre(){
+    public static String pedirNombre() {
         System.out.println("Enter a fruit name:")
-        Scanner scanner = new Scanner(System.in)
-        scanner.next()
-
     }
 
-    public static String validateColour (){
+    public static String enterData() {
+        dataByUser = scanner.next()
+    }
+
+    public static String validateName() {
+
+        Fruta existe = Fruteria.frutas.ListadoFrutas.find {
+            it.nombre == dataByUser
+        }
+        if (existe) {
+            println("The fruit you are trying to enter already exist.")
+            nameValidated()
+        }
+        //String fruitName = dataByUser
+        while (!dataByUser.matches("[a-zA-Z]*")) {
+            println("The name is invalid.")
+            pedirNombre()
+            enterData()
+            validateName()
+            //fruitName = dataByUser
+        }
+        return dataByUser
+    }
+
+    public static String nameValidated() {
+        pedirNombre()
+        enterData()
+        validateName()
+    }
+
+    public static String validateColour() {
         String fruitColour = pedirColor()
-        while (!fruitColour.matches( "[a-zA-Z]*" )){
+        while (!fruitColour.matches("[a-zA-Z]*")) {
             println("The fruit colour is invalid.")
             fruitColour = pedirColor()
         }
@@ -32,7 +52,7 @@ public class ValidationClass {
 
     }
 
-    public static String pedirColor(){
+    public static String pedirColor() {
         System.out.println("Enter a colour name:")
         Scanner scanner = new Scanner(System.in)
         scanner.next()
@@ -53,5 +73,6 @@ public class ValidationClass {
         Scanner scanner = new Scanner(System.in)
         scanner.next()
     }
+
 
 }

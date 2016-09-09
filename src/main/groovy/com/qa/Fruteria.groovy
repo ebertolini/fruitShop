@@ -54,11 +54,7 @@ public class Fruteria {
         OPTION 1 - LIST ALL FRUITS.
         The fruits list is the following:
         ''')
-        frutas.ListadoFrutas.each{
-            it.nombre
-            println(it.nombre)
-            nombre = nombre + it.nombre
-        }
+        listadoDeFrutas()
         mainMenu()
     }
 
@@ -71,7 +67,7 @@ public class Fruteria {
         String vitamina = "";
         String[] vitaminaSplit = [];
 
-        nombre = ValidationClass.validateName()
+        nombre = ValidationClass.nameValidated()
         color = ValidationClass.validateColour()
         vitamina = ValidationClass.validateVitamins()
         vitaminaSplit = vitamina.split(",")
@@ -81,7 +77,7 @@ public class Fruteria {
             vitaminaArray.add(it)
         }
         frutas.ListadoFrutas.add(new Fruta(nombre,color,vitaminaArray))
-        println("La Fruta fue agregada correctamente: "+frutas.ListadoFrutas.last().toString())
+        println("The fruit was successfully added : "+frutas.ListadoFrutas.last().toString())
         // POST con el valor de mi string a info/frutas.json
         def http = new HTTPBuilder( 'https://fefa-workshop.firebaseio.com/' )
         http.post(  path : '/info/frutas.json',
@@ -105,7 +101,6 @@ public class Fruteria {
         else {
         sentence = frutaABuscar
         }
-
         //Compara com.qa.Fruta a buscar con la lista de frutas
         Fruta frutaEncontrada = frutas.ListadoFrutas.find {
             it.nombre.toLowerCase() == sentence.toLowerCase()
@@ -121,7 +116,7 @@ public class Fruteria {
     public static void deleteAnItem(){
         println("OPTION 4 - DELETE AN ITEM.")
         Scanner scanner = new Scanner(System.in)
-        listAllFruits()
+        listadoDeFrutas()
         println("Enter the fruit you want to delete")
         String frutaAEliminar = scanner.next()
 
@@ -149,6 +144,14 @@ public class Fruteria {
                             OPTION 4 - DELETE AN ITEM.
                             OPTION 5 - EXIT.
                             ''');
+    }
+
+    public static void listadoDeFrutas(){
+        frutas.ListadoFrutas.each{
+            it.nombre
+            println(it.nombre)
+            nombre = nombre + it.nombre
+        }
     }
 
 

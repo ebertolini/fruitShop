@@ -1,5 +1,6 @@
 import com.qa.Fruta
 import com.qa.Frutas
+import com.qa.Fruteria
 import org.testng.annotations.Test
 
 /**
@@ -10,7 +11,7 @@ class mainTestClass {
     //@Test
     void firstValidation() {
 
-        Fruteria.listAllFruits()
+        Fruteria.listadoDeFrutas()
         assert Fruteria.nombre == "bananamanzananaranja"
     }
 
