@@ -24,7 +24,7 @@ public class Fruteria {
 
         boolean exit = true;
         while (exit) {
-            int valorIngresado = scanner.nextInt();
+           int valorIngresado = ValidationClass.validateOption()
             switch (valorIngresado) {
                 case 1:
                     listAllFruits();
@@ -105,6 +105,7 @@ public class Fruteria {
             it.nombre.toLowerCase() == sentence.toLowerCase()
         }
         if (frutaEncontrada) {
+            loQueEncontro = frutaEncontrada.nombre
             println("The fruit was found.")
         } else {
             println("The fruit does not exist.")
@@ -119,13 +120,17 @@ public class Fruteria {
         println("Enter the fruit you want to delete")
         String frutaAEliminar = scanner.next()
 
+        int counter = -1
         Fruta encontrarFrutaAEliminar = frutas.ListadoFrutas.find {
+            counter ++
             it.nombre == frutaAEliminar
         }
         if (encontrarFrutaAEliminar) {
             def http = new RESTClient('https://fefa-workshop.firebaseio.com/' )
             http.delete(path : "/info/frutas/${encontrarFrutaAEliminar.id}.json")
             println("The fruit has been deleted!")
+
+            frutas.ListadoFrutas.remove(counter)
 
         }
         else {

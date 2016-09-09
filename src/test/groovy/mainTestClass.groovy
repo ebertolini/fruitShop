@@ -25,11 +25,11 @@ class mainTestClass {
 
     }
 
-    //@Test
+    @Test
     void secondValidation() {
-        Fruteria.searchAnItem("naranja")
-
-        assert Fruteria.loQueEncontro == "naranja"
+        Fruteria.frutas.ListadoFrutas.add(new Fruta("durazno", "amarillo", [], ""))
+        Fruteria.searchAnItem("durazno")
+        assert Fruteria.loQueEncontro == "durazno"
     }
 
     @Test

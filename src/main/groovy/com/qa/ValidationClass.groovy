@@ -69,4 +69,14 @@ public class ValidationClass {
         scanner.next()
     }
 
+    public static int validateOption() {
+        String dataEnetered = scanner.next();
+
+        while (!dataEnetered.isNumber()) {
+            println("Los datos son incorrectos")
+            dataEnetered = scanner.next();
+        }
+
+        dataEnetered.toInteger()
+    }
 }

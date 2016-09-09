@@ -12,3 +12,5 @@ target/
 wrapper.log*
 
 test-output/*
+
+src/main/groovy/com/qa/ValidationClass.groovy
