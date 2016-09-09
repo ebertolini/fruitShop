@@ -10,5 +10,5 @@ This system allows you to:
 
 ### To clone and execute it:
 - clone the proyect entering by console: git clone https://github.com/ebertolini/fruitShop.git
-- Type: mvn package (It will create a .jar file in ../target/file.jar)
-- java -jar ../verduleria/target/com.verduleria.qa-XX-SNAPSHOT.jar where XX is the current version.
+- Type: mvn package (It will create a .jar file in ../target/com.verduleria.qa-XX-SNAPSHOT.jar.jar) where XX is the current version.
+- java -jar ../verduleria/target/com.verduleria.qa-XX-SNAPSHOT.jar 
