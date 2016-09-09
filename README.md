@@ -1,4 +1,5 @@
 # FruitShop
+[![Build Status](https://travis-ci.org/ebertolini/fruitShop.svg?branch=master)](https://travis-ci.org/ebertolini/fruitShop)
 
 This system allows you to:
 -------------------------
